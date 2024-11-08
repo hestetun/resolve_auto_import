@@ -27,11 +27,11 @@ Now add the workflow to your finder QuickActions.
 
 * Right click on a folder in Finder and go to to Quick Actions, Customise
 
-    <img src="/Users/christykail/Desktop/Screenshot 2024-11-08 at 21.19.21.png" width="350"/>
+    <img src="src/install_1.png" width="350"/>
 
 * Select the Import into Resolve checkbox
     
-    <img src="/Users/christykail/Desktop/Screenshot 2024-11-08 at 21.21.32.png" width="350"/>
+    <img src="src/install_2.png" width="350"/>
 
 ### Usage
 
@@ -39,11 +39,11 @@ Now add the workflow to your finder QuickActions.
 * Select one or more camera rolls from in Finder, and right click
 * Point to Quick Actions, and select Import Into Resolve
 
-    <img src="/Users/christykail/Desktop/Screenshot 2024-11-08 at 21.23.59.png" width="350"/>
+    <img src="src/usage_1.png" width="350"/>
 
 * For each folder you had selected, Auto Import will create a named bin, import the contents, and create a timeline of all the clips
 
-    <img src="/Users/christykail/Desktop/Screenshot 2024-11-08 at 21.30.10.png" width="350"/>
+    <img src="src/usage_2.png" width="350"/>
   
 **Notes:**
 * If a folder doesn't have any media files in it, it will be skipped
