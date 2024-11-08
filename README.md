@@ -1,6 +1,6 @@
 # Resolve Auto Import
 
-This tool is mainly designed for DIT and dailies work, where you need to quickly import the contents of a camera card (or multiple camera cards) into a bin, and create a timeline of all clips.
+This tool is mainly designed for DIT and dailies work, where you need to quickly import the contents of a camera card (or multiple camera cards) into a DaVinci Resolve bin, and create a timeline of all clips per camera card.
 
 For cameras like the Alexa 35 this is easy as you can use "Import folder and subfolders into media pool and create bins" option, but for cameras with more complicated folder structures like the Sony Venice or Alexa LF this option creates a lot of unwanted bin structure.
 
