@@ -1,11 +1,9 @@
 import os
 import sys
 
-from resolve_connection import ResolveConnection
+# version 0.1.0
 
-resolve = ResolveConnection()
 valid_extensions = ["mxf", "mov", "arx", "ari", "r3d", 'mp4', 'dpx', 'exr', 'wav']
-
 
 def import_folder_as_roll(source_folder: str):
     files_to_import = []
@@ -74,5 +72,14 @@ def notify(title, text):
 
 
 if __name__ == '__main__':
+
+    from resolve_connection import ResolveConnection
+
+    try:
+        resolve = ResolveConnection()
+    except Exception as e:
+        notify("Resolve Auto Import", f'Failed to connect to Resolve. {e}')
+        sys.exit()
+
     input_folders = sys.argv[1:]
     import_from_folders(input_folders)
