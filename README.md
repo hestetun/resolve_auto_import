@@ -27,7 +27,7 @@ Now add the workflow to your finder QuickActions.
 
 * Right click on a folder in Finder and go to to Quick Actions, Customise
 
-    <img src="src/install_1.png" width="350"/>
+    <img src="src/install_1.png" width="330"/>
 
 * Select the Import into Resolve checkbox
     
