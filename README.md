@@ -10,7 +10,7 @@ This tool allows you to select any number of camera rolls at the Finder level, a
 * This is MacOS based only, and will only work with the Resolve Studio version as it requires external scripting.
 * Tested on MacOS Ventura with Python 3.13.0, and Resolve Studio 19.0.3.
 
-### Installation
+## Installation
 Download or git clone the repo, and run the `install.command` file. This will copy the files into your `~/Library/Services` directory. 
 
 You can also just copy it manually to match the following structure:
@@ -33,7 +33,7 @@ Now add the workflow to your finder QuickActions.
     
     <img src="src/install_2.png" width="350"/>
 
-### Usage
+## Usage
 
 * Make sure Resolve is open
 * Select one or more camera rolls from in Finder, and right click
