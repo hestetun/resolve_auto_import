@@ -1,6 +1,6 @@
 # Resolve Auto Import
 
-This tool is mainly designed for DIT and dailies work, where you need to quickly import the contents of a camera card (or multiple camera cards) into a bin, and create a timeline of all clips.
+This tool is mainly designed for DIT and dailies work, where you need to quickly import the contents of a camera card (or multiple camera cards) into a DaVinci Resolve bin, and create a timeline of all clips per camera card.
 
 For cameras like the Alexa 35 this is easy as you can use "Import folder and subfolders into media pool and create bins" option, but for cameras with more complicated folder structures like the Sony Venice or Alexa LF this option creates a lot of unwanted bin structure.
 
@@ -10,7 +10,7 @@ This tool allows you to select any number of camera rolls at the Finder level, a
 * This is MacOS based only, and will only work with the Resolve Studio version as it requires external scripting.
 * Tested on MacOS Ventura with Python 3.13.0, and Resolve Studio 19.0.3.
 
-### Installation
+## Installation
 Download or git clone the repo, and run the `install.command` file. This will copy the files into your `~/Library/Services` directory. 
 
 You can also just copy it manually to match the following structure:
@@ -33,7 +33,7 @@ Now add the workflow to your finder QuickActions.
     
     <img src="src/install_2.png" width="350"/>
 
-### Usage
+## Usage
 
 * Make sure Resolve is open
 * Select one or more camera rolls from in Finder, and right click
