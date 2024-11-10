@@ -61,8 +61,19 @@ def import_from_folders(folders):
             continue
 
         name = os.path.basename(root)
-        timeline_from_clips(clips, name)
+        timeline_from_clips(filter_clips_for_timeline(clips), name)
         notify("Resolve Auto Import", f'Imported {name}')
+
+
+def filter_clips_for_timeline(clips):
+    clips_for_timeline = []
+
+    for clip in clips:
+
+        if clip.GetName().lower().endswith('.wav'):
+            continue
+
+        clips_for_timeline.append(clip)
 
 
 def notify(title, text):
